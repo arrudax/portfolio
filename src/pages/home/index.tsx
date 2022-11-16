@@ -26,7 +26,7 @@ import {
   ProjectAreaWrapperColumns,
   ProjectsAreaContent,
 } from "./style";
-import { HandEffect } from "@/components/HandEffect";
+// import { HandEffect } from "@/components/HandEffect";
 
 export const Home = (): JSX.Element => {
   return (
@@ -43,7 +43,7 @@ export const Home = (): JSX.Element => {
                 height={"48px"}
               />
               <Text color="grey4" css={{ marginLeft: "$2" }}>
-                Hello, my name is {userData.nameUser} <HandEffect />
+                Hello, my name is {userData.nameUser} {/*<HandEffect /> */}
               </Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">

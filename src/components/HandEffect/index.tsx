@@ -15,6 +15,9 @@ export const HandEffect = () => {
       if (entries[0].isIntersecting) {
         setInterval(() => {
           hand.current.style.animation = `${scaleUp} 1s ease`;
+          console.log('hand: ', hand);
+          
+          
         }, 500);
       }
     });
