@@ -33,9 +33,9 @@ export const Footer = (): JSX.Element => {
           <Button className="instagram" type="circle" as="a" target="_blank" href={`https://instagram.com/${userData.instagramUser}`}>
             <FaInstagram />
           </Button>
-          <Button className="facebook" type="circle" as="a" target="_blank" href={`https://fb.com/${userData.facebookUser}`}>
+          {/* <Button className="facebook" type="circle" as="a" target="_blank" href={`https://fb.com/${userData.facebookUser}`}>
             <FaFacebookF />
-          </Button>
+          </Button> */}
           <Button className="linkedin" type="circle" as="a" target="_blank" href={`https://linkedin.com/in/${userData.linkedinUser}`}>
             <FaLinkedinIn />
           </Button>

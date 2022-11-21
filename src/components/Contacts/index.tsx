@@ -65,7 +65,7 @@ export const Contacts = () => {
               </ContactCardContent>
             </ContactCard>
 
-            <ContactCard>
+            {/* <ContactCard>
               <ContactCardImage className="email">
                 <FaEnvelopeOpen color="#fff" size={24} />
               </ContactCardImage>
@@ -86,7 +86,7 @@ export const Contacts = () => {
                   Send email now
                 </Text>
               </ContactCardContent>
-            </ContactCard>
+            </ContactCard> */}
             <ContactCard>
               <ContactCardImage className="linkedin">
                 <FaLinkedin color="#fff" size={24} />
@@ -104,7 +104,7 @@ export const Contacts = () => {
                   color="grey2"
                   type="body2"
                   target="_blank"
-                  href={userData.linkedinUser}
+                  href={`https://www.linkedin.com/in/${userData.linkedinUser}`}
                 >
                   Go to Telegram Now
                 </Text>
