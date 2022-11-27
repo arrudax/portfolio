@@ -62,7 +62,7 @@ export const Project = (): JSX.Element => {
             ) : (
               <ProjectStackTech>
                 <Text color="grey2" type="body2">
-                  Not identified
+                  Não identificada
                 </Text>
               </ProjectStackTech>
             )}
@@ -73,7 +73,7 @@ export const Project = (): JSX.Element => {
           </Text>
           <ProjectLinks>
             <ProjectLink target="_blank" href={repository.html_url}>
-              <FaGithub /> Github Code
+              <FaGithub /> Link GitHub
             </ProjectLink>
             {repository.homepage && (
               <ProjectLink target="_blank" href={repository.homepage}>
