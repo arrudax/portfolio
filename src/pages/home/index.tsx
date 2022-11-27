@@ -43,27 +43,25 @@ export const Home = (): JSX.Element => {
                 height={"48px"}
               />
               <Text color="grey4" css={{ marginLeft: "$2" }}>
-                Hello, my name is {userData.nameUser} {/*<HandEffect /> */}
+                Olá, meu nome é {userData.nameUser} {/*<HandEffect /> */}
               </Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-              I{" "}
+              Eu sou{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                apaixonado
               </Text>{" "}
-              creating and{" "}
+              em colocar minha criatividade em{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
+                projetos
               </Text>{" "}
-              projects
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              No meu site você vai conhecer todos os meu projetos e tecnologias.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
-                See Projects
+                Meus Projetos
               </Button>
               <Button
                 as="a"
@@ -87,10 +85,10 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey4">
-                My projects
+                Meus projetos
               </Text>
               <Text as="p" type="body1" color="grey2">
-                Projects created at{" "}
+                Todos os projetos foram desenvolvidos para o curso{" "}
                 <Text as="span" color="brand5">
                   Kenzie Academy
                 </Text>

@@ -28,15 +28,10 @@ export const Contacts = () => {
           <motion.div style={{ opacity: scrollYProgress }}>
             <ContactSectionText>
               <Text type="heading2" color="grey4">
-                Let's set up a conversation and{" "}
+                Quer conversar comigo para falar sobre algum{" "}
                 <Text as="span" type="heading2" color="brand1">
-                  develop our creativity
+                  projeto?
                 </Text>{" "}
-                together?
-              </Text>
-              <Text color="grey2" type="body1">
-                Advertise your brand organically within Dribbble’s design
-                inspiration feed.
               </Text>
             </ContactSectionText>
           </motion.div>
@@ -47,11 +42,10 @@ export const Contacts = () => {
               </ContactCardImage>
               <ContactCardContent>
                 <Text type="heading4" color="grey4">
-                  My Whatsapp
+                  Meu Whatsapp
                 </Text>
                 <Text color="grey2" type="body2">
-                  I'm available for a voice chat, let's about creativity
-                  together?
+                Estou disponível para um bate-papo por voz, vamos falar sobre projetos?
                 </Text>
                 <Text
                   as="a"
@@ -60,7 +54,7 @@ export const Contacts = () => {
                   target="_blank"
                   href={`https://api.whatsapp.com/send?phone=+55+${userData.whatsappNumber}&text=Ol%C3%A1%2C%20venho%20por%20meio%20do%20seu%20portf%C3%B3lio%20na%20internet%2C%20gostaria%20de%20conhecer%20melhor%20seus%20servi%C3%A7os`}
                 >
-                  Talk Now
+                  Mandar mensagem
                 </Text>
               </ContactCardContent>
             </ContactCard>
@@ -93,11 +87,10 @@ export const Contacts = () => {
               </ContactCardImage>
               <ContactCardContent>
                 <Text type="heading4" color="grey4">
-                  My LinkedIn
+                  Meu LinkedIn
                 </Text>
                 <Text color="grey2" type="body2">
-                  We can create more constant interactions as well as a sharing
-                  network
+                  Podemos criar interações mais constantes, venha fazer parte da minha rede!
                 </Text>
                 <Text
                   as="a"
@@ -106,7 +99,7 @@ export const Contacts = () => {
                   target="_blank"
                   href={`https://www.linkedin.com/in/${userData.linkedinUser}`}
                 >
-                  Go to Telegram Now
+                  Fazer conexão
                 </Text>
               </ContactCardContent>
             </ContactCard>
